@@ -1,0 +1,15 @@
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\bin\Debug\net10.0\Mini-Battle.exe
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\bin\Debug\net10.0\Mini-Battle.deps.json
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\bin\Debug\net10.0\Mini-Battle.runtimeconfig.json
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\bin\Debug\net10.0\Mini-Battle.dll
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\bin\Debug\net10.0\Mini-Battle.pdb
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\Mini-Battle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\Mini-Battle.AssemblyInfoInputs.cache
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\Mini-Battle.AssemblyInfo.cs
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\Mini-Battle.csproj.CoreCompileInputs.cache
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\Mini-Battle.sourcelink.json
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\Mini-Battle.dll
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\refint\Mini-Battle.dll
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\Mini-Battle.pdb
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\Mini-Battle.genruntimeconfig.cache
+C:\Users\halid\Desktop\Webbutvecklare.NET\Webbapplikation\Övning - händelsestyrning och DOM\Mini-Battle\obj\Debug\net10.0\ref\Mini-Battle.dll
