@@ -66,15 +66,19 @@ constructor
 
 class Charachter
 {
-    public string Name;
-    public int CurrentHp;
-    public int MaxHp;
-    public int AttackPower;
-    public int HealPower;
+    public string Name{get; set;}
+    public int CurrentHp{get; set;}
+    public int MaxHp{get; set;}
+    public int AttackPower{get; set;}
+    public int HealPower{get; set;}
 
     public Charachter(string Name, int CurrentHp, int MaxHp, int AttackPower, int HealPower )
     {
         Name = name;
+        MaxHp = maxHp;
+        CurrentHp = maxHp;
+        AttackPower = attackPower;
+        HealPower = healPower;
     }
 
 
