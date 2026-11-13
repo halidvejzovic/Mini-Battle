@@ -69,5 +69,59 @@ Charachter enemy = new Charachter("Fiende", 100, 100, 20, 15);
 
 Random random = new Random();
 
+while (player.CurrentHp > 0 && enemy.CurrentHp > 0)
+{
+    player.CheckRageMode();
+    enemy.CheckRageMode();
 
+    Console.WriteLine();
+    Console.WriteLine($"Spelare HP: {player.CurrentHp}/{player.MaxHp}");
+    Console.WriteLine($"Fiende HP: {enemy.CurrentHp}/{enemy.MaxHp}");
+    Console.WriteLine();
+
+    Console.WriteLine("A = Attack");
+    Console.WriteLine("H = Heal");
+
+    string choice = Console.ReadLine() ?? string.Empty;
+
+    switch (choice.ToLower())
+    {
+        case "a":
+            player.Attack(enemy, random);
+            break;
+
+        case "h":
+            player.Heal();
+            break;
+
+        default:
+            Console.WriteLine("Fel val!");
+            continue;
+    }
+
+    if (enemy.CurrentHp <= 0)
+    {
+        Console.WriteLine("Spelaren vann!");
+        break;
+    }
+
+    int enemyChoice = random.Next(2);
+
+    if (enemyChoice == 0)
+    {
+        enemy.Attack(player, random);
+    }
+    else
+    {
+        enemy.Heal();
+    }
+
+    if (player.CurrentHp <= 0)
+    {
+        Console.WriteLine("Fienden vann!");
+        break;
+    }
+}
+
+Console.WriteLine("Spelet är slut!");
 

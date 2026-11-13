@@ -82,7 +82,7 @@ class Charachter
         HealPower = healPower;
         RageMode = false;
     }
-§
+
     public void Attack(Charachter target, Random random)
     {
         int damage = AttackPower;
