@@ -124,16 +124,12 @@ class Charachter
         Console.WriteLine($"{Name} healade {HealPower} HP!");
     }
 
-    
-
-
-
-
-
-
-
-
-
-
-
+    public void CheckRageMode()
+    {
+        if (RageMode == false && CurrentHp <= MaxHp / 2)
+        {
+            RageMode = true;
+            Console.WriteLine($"{Name} aktiverade Rage Mode!");
+        }
+    } 
 }
