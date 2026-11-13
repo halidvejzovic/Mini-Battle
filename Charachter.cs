@@ -82,7 +82,7 @@ class Charachter
         HealPower = healPower;
         RageMode = false;
     }
-
+§
     public void Attack(Charachter target, Random random)
     {
         int damage = AttackPower;
@@ -92,7 +92,7 @@ class Charachter
             damage = (int)(damage * 1.5);
         }
 
-        if(random.Next(100) < 20)
+        if (random.Next(100) < 20)
         {
             damage = (int)(damage * 1.25);
             Console.WriteLine($"{Name} performed a Critical Strike!");
@@ -133,3 +133,6 @@ class Charachter
         }
     } 
 }
+
+
+

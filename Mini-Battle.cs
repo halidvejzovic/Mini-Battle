@@ -63,3 +63,11 @@ public kan använda variablar metoder utanför klass
 constructor 
 
 **/
+
+Charachter player = new Charachter("Spelare", 100, 100, 20, 15);
+Charachter enemy = new Charachter("Fiende", 100, 100, 20, 15);
+
+Random random = new Random();
+
+
+
