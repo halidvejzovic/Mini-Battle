@@ -71,15 +71,69 @@ class Charachter
     public int MaxHp{get; set;}
     public int AttackPower{get; set;}
     public int HealPower{get; set;}
+    public bool  RageMode{get; set;}
 
-    public Charachter(string Name, int CurrentHp, int MaxHp, int AttackPower, int HealPower )
+    public Charachter(string name, int currentHp, int maxHp, int attackPower, int healPower )
     {
         Name = name;
+        CurrentHp = currentHp;
         MaxHp = maxHp;
-        CurrentHp = maxHp;
         AttackPower = attackPower;
         HealPower = healPower;
+        RageMode = false;
     }
+
+    public void Attack(Charachter target, Random random)
+    {
+        int damage = AttackPower;
+
+        if (RageMode)
+        {
+            damage = (int)(damage * 1.5);
+        }
+
+        if(random.Next(100) < 20)
+        {
+            damage = (int)(damage * 1.25);
+            Console.WriteLine($"{Name} performed a Critical Strike!");
+        }
+
+        target.TakeDamage(damage);
+        Console.WriteLine($"{Name} gjorde en Critical Strike!");
+    }
+
+    public void TakeDamage(int damage)
+    {
+        CurrentHp -= damage;
+
+        if (CurrentHp < 0)
+        {
+            CurrentHp = 0;
+        }
+    }
+
+    public void Heal()
+    {
+        CurrentHp += HealPower;
+
+        if (CurrentHp > MaxHp)
+        {
+            CurrentHp = MaxHp;
+        }
+
+        Console.WriteLine($"{Name} healade {HealPower} HP!");
+    }
+
+    
+
+
+
+
+
+
+
+
+
 
 
 }
